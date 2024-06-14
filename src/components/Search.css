@@ -1,0 +1,94 @@
+@media only screen and (min-width:1300px) {
+    .search-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px 75px;
+        background-color: hsl(207, 26%, 17%);
+    }
+
+    .search-text-box {
+        background-color: hsl(209, 23%, 22%);
+        color: white;
+        border: none;
+        font-size: 12px;
+        width: 400px;
+        padding: 15px;
+        border-radius: 5px;
+        background-image: url('../assets/searchDark.svg');
+        background-repeat: no-repeat;
+        background-position: left 25px center;
+        text-indent: 50px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
+    }
+
+    .search-text-box::placeholder {
+        color: white;
+        text-indent: 50px;
+    }
+
+    .search-light-mode {
+        background-color: white;
+        color: hsl(200, 15%, 8%);
+    }
+
+    .search-light-mode.search-text-box::placeholder {
+        color: hsl(200, 15%, 8%);
+    }
+
+}
+
+@media only screen and (max-width:1300px) {
+
+
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 40px 20px;
+        background-color: hsl(207, 26%, 17%);
+    }
+
+    .search-text-box {
+        background-color: hsl(209, 23%, 22%);
+        color: white;
+        border: none;
+        font-size: 12px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 5px;
+        background-image: url('../assets/searchDark.svg');
+        background-repeat: no-repeat;
+        background-position: left 25px center;
+        text-indent: 50px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+    }
+
+    .search-text-box::placeholder {
+        color: white;
+        text-indent: 50px;
+    }
+
+    .search-light-mode {
+        background-color: white;
+        color: hsl(200, 15%, 8%);
+    }
+
+    .search-light-mode.search-text-box::placeholder {
+        color: hsl(200, 15%, 8%);
+    }
+
+    .search-light-mode.search-text-box{
+        font-size: 12px;
+        background-image: url('../assets/search.svg');
+        
+        background-repeat: no-repeat;
+        background-position: left 25px center;
+        text-indent: 50px;
+        padding: 15px;
+        background-size: 20px;
+
+    }
+
+}

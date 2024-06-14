@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@media only screen and (min-width:1300px) {
+
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(207, 26%, 17%);
+    width: 1300px;
+    min-height: 900px;
+  }
+
+  .flagsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 35px 35px 35px;
+
+  }
+
+  .app-light-mode {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(200, 15%, 8%);
+  }
+
+}
+
+@media only screen and (max-width:1300px) {
+
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(207, 26%, 17%);
+    width: 350px;
+    min-height: 900px;
+  }
+
+  .flagsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 35px 35px 35px;
+
+  }
+
+  .app-light-mode {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(200, 15%, 8%);
+  }
+
+}

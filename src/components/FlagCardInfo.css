@@ -1,0 +1,243 @@
+@media only screen and (min-width:1300px) {
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        font-family: "Nunito Sans", sans-serif;
+        align-items: flex-start;
+
+    }
+
+    .back-button>button {
+        background-color: hsl(209, 23%, 22%);
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 32px;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 70px;
+    }
+
+    .back-button>button:hover {
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    .back-button>button:active {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .info {
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flag-info {
+        padding: 40px 0 0 70px;
+
+        line-height: 18px;
+        font-size: 14px;
+
+    }
+
+    .flag-image>img {
+        width: 500px;
+        height: 360px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .flag-info-h1-row>h1 {
+        margin-bottom: 20px;
+        ;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .flag-info-rows {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .flag-info-data-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flag-info-borders-row {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0 0 50px;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .country-btn {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 12px;
+        background-color: hsl(209, 23%, 22%);
+        border-radius: 2px;
+        border: none;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 400;
+        font-size: 12px;
+        padding: 5px 25px;
+        color: white;
+        min-width: 90px;
+        margin: 0 5px;
+    }
+
+    .flag-info-data-row-right {
+        margin-left: 120px;
+    }
+
+    .border-p {
+        text-wrap: nowrap;
+    }
+
+    .light-back-button>button {
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 32px;
+        cursor: pointer;
+        margin-bottom: 70px;
+        color: hsl(200, 15%, 8%);
+    }
+
+    .f-l-mode {
+        background-color: white;
+        color: hsl(200, 15%, 8%);
+    }
+}
+
+@media only screen and (max-width:1300px) {
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        font-family: "Nunito Sans", sans-serif;
+        align-items: flex-start;
+
+    }
+
+    .back-button>button {
+        background-color: hsl(209, 23%, 22%);
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 32px;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 70px;
+    }
+
+    .back-button>button:hover {
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    .back-button>button:active {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .info {
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flag-info {
+
+        line-height: 18px;
+        font-size: 14px;
+
+    }
+
+    .flag-image>img {
+        width: 290px;
+        height: auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+    }
+
+    .flag-info-h1-row>h1 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .flag-info-rows {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flag-info-data-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flag-info-borders-row {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .country-btn {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 12px;
+        background-color: hsl(209, 23%, 22%);
+        border-radius: 2px;
+        border: none;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 400;
+        font-size: 12px;
+        padding: 5px 25px;
+        color: white;
+        min-width: 90px;
+        margin: 5px 5px;
+    }
+
+    .flag-info-data-row-right {
+        margin-top: 50px;
+    }
+
+    .border-p {
+        text-wrap: nowrap;
+    }
+    .border-p::after{
+        content:"                                                  ";
+        white-space: pre; /* or pre-wrap */    
+    }
+
+    .light-back-button>button {
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 32px;
+        cursor: pointer;
+        margin-bottom: 70px;
+        color: hsl(200, 15%, 8%);
+    }
+
+    .f-l-mode {
+        background-color: white;
+        color: hsl(200, 15%, 8%);
+    }
+}

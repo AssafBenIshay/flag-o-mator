@@ -1,0 +1,112 @@
+@media only screen and (min-width:1300px) {
+
+
+
+    .top-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: hsl(208, 23%, 22%);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.11);
+    }
+
+    .top-menu-h1 {
+        color: hsl(0, 0%, 100%);
+        font-size: 22px;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        margin: 22px 0 22px 76px;
+    }
+
+    .top-menu-button {
+        background-color: transparent;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        font-size: 14px;
+        width: 150px;
+        margin-right: 40px;
+        cursor: pointer;
+
+    }
+
+
+    .top-menu-button-img-light {
+        width: 20px;
+        height: 20px;
+        background-image: url('../assets/moonDark.svg');
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+    }
+
+    .top-menu-button-img-dark {
+        width: 20px;
+        height: 20px;
+        background-image: url('../assets/moon.svg');
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+    }
+
+    .tm-light-mode {
+        background-color: white;
+        color: hsl(200, 15%, 8%);
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .top-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        background-color: hsl(208, 23%, 22%);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.11);
+    }
+
+    .top-menu-h1 {
+        color: hsl(0, 0%, 100%);
+        font-size: 12px;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        margin: 22px 20px 22px 15px;
+    }
+
+    .top-menu-button {
+        background-color: transparent;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: none;
+        font-size: 10px;
+        width: 120px;
+        cursor: pointer;
+
+    }
+
+    .top-menu-button-img-light {
+        width: 20px;
+        height: 20px;
+        background-image: url('../assets/moonDark.svg');
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+    }
+
+    .top-menu-button-img-dark {
+        width: 20px;
+        height: 20px;
+        background-image: url('../assets/moon.svg');
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+    }
+
+
+    .tm-light-mode {
+        background-color: white;
+        color: hsl(200, 15%, 8%);
+    }
+}
